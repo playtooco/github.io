@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>TOOCO</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <!--<script src="script_sound.js"></script>
+ <script src="script_sound_play.js"></script>-->
+ 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+ 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+</head>
+<body>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+ 
+  <!-- wrapper for slides -->
+  	<div class="carousel-inner" role="listbox">
+		    <div class="item active">          
+		 	 <img src="gif_bird.gif" alt="TOOCO">       	
+			</div>	     	
+			<div class="carousel-caption"><div class="opacity_text_bottom">Best Game in the World!</div> 
+			<div class="small-text-our"<p>© 2017 Vitamin Labs</p></div>
+			<div class="small-text"<p>Music: http://www.bensound.com</p></div>
+
+	</div>
+
+</div>
+<div class="overlay"><div class="opacity_text">Who is Tooco?</div><p><a href="https://play.google.com/store/apps/dev?id=5488284014231228557" class="button"  target="_blank">Soon on Google Play</a></p></div>
+
+<!-- MUSIC PLAY AND STOP -->
+<div class="overlay-bottom-right">
+					<div>
+							<audio id="myTune" autoplay>
+							  <source src="music.mp3">
+							  <source src="WhiteChristmas.ogg">
+							</audio>
+							<button class="button-music button1" onclick="document.getElementById('myTune').play()"><i class="fa fa-play" aria-hidden="true"></i></button>
+						<button class="button-music button1" onclick="document.getElementById('myTune').pause(); document.getElementById('myTune').currentTime = 0;" class="button-music"><i class="fa fa-pause" aria-hidden="true"></i></button> 
+					</div>
+
+</div>
+</div>				
+
+
+    
+<!--
+    <div class="item">
+      <img src="chicago.jpg" alt="Chicago">
+      <div class="carousel-caption">
+        <h3>Chicago</h3>
+        <p>Thank you, Chicago - A night we won't forget.</p>
+      </div> 
+    </div>
+
+    <div class="item">
+      <img src="la.jpg" alt="Los Angeles">
+      <div class="carousel-caption">
+        <h3>LA</h3>
+        <p>Even though the traffic was a mess, we had the best time.</p>
+      </div> 
+    </div>
+  </div>
+-->
+  <!-- Left and right controls 
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>-->
+
+
+
+
+</body>
+</html>
