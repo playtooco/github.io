@@ -111,3 +111,11 @@ z-index:12;
 opacity: 0.3;
 text-align: center;
 }	
+
+.awesome_style {
+  opacity: 0.4;
+  font-family: "Lobster", serif;
+  font-size: 40px;
+  border: 0;
+  padding-bottom: 80px;  
+}
